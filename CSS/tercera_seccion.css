@@ -1,0 +1,35 @@
+.tercera_seccion{
+    display: flex;
+    align-items: center;
+    margin-top: 200px;
+    justify-content: space-evenly;
+}
+
+.foto3{
+    width: 650px;
+}
+.textos_TS{
+    margin: 0 150px;
+}
+@media screen and (max-width: 750px){ 
+
+    .tercera_seccion{
+        display: flex;
+        align-items: center;
+        margin: 0;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .foto3{
+        width: 200px;
+    }
+    .textos_TS{
+        margin: 0;
+        padding: 15px;
+    }
+    .textos_TS p{
+        text-align: justify;
+    }
+    
+}
