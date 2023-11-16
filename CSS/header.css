@@ -10,7 +10,7 @@ header{
     width: 100%;
 }
 header.abajo{
-    background-color: white;
+    background-color: rgb(226, 49, 49);
     color: black;
 }
 
@@ -38,7 +38,7 @@ nav{
 
 .ham span {
     display: block;
-    background-color: rgb(250, 245, 245);
+    background-color: rgb(21, 21, 21);
     height: 3px;
     width: 28px;
     margin: 10px auto;
@@ -70,11 +70,7 @@ nav{
 
 @media (max-width:750px) {
     
-    body{
-        overflow: hidden;
-        
-    }
-    
+  
 
     .logo{
         padding-left: 25px;
@@ -84,8 +80,8 @@ nav{
     .ham{
         display: block;
         position: absolute;
-        top: 40px;
-        right: 800px;
+        top: 50px;
+        right: 50px;
         
     }
     nav{

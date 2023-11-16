@@ -22,14 +22,20 @@
     }
     
     .foto3{
-        width: 200px;
+        width: 100px;
     }
     .textos_TS{
         margin: 0;
-        padding: 15px;
+        
     }
     .textos_TS p{
         text-align: justify;
+        padding: 0 20px;
     }
-    
+    .textos_TS h2{
+
+            text-align: justify;
+            padding: 0 20px;
+        
+    }
 }
