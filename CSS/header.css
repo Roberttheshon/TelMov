@@ -10,13 +10,14 @@ header{
     width: 100%;
 }
 header.abajo{
-    background-color: rgb(226, 49, 49);
+    background-color: rgba(255, 94, 0, 0.51);
     color: black;
 }
 
 header.abajo .enlaces-menu li a{
     color: black;
 }
+
 nav{
     display: flex;
     align-items: center;
@@ -38,7 +39,7 @@ nav{
 
 .ham span {
     display: block;
-    background-color: rgb(21, 21, 21);
+    background-color: rgb(21, 24, 87);
     height: 3px;
     width: 28px;
     margin: 10px auto;
@@ -60,10 +61,14 @@ nav{
     font-size: 18px;
     color: white;
     font-weight: 600;
+    font-family: 'Kanit', sans-serif;
 }
 
 .enlaces-menu li a:hover{
-    color: red;
+    background-color: rgba(255, 94, 0, 0.51);
+}
+h1{
+    font-family: 'Shrikhand', serif;
 }
 
 /* RESPONSIVE*/
@@ -75,6 +80,7 @@ nav{
     .logo{
         padding-left: 25px;
         translate: 2s;
+        
     }
     
     .ham{
@@ -109,7 +115,7 @@ nav{
     }
     .container.clicked{
         background-color: rgba(255, 94, 0, 0.51);
+        
     }
     
-
 }

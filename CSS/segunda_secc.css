@@ -20,6 +20,7 @@
     text-align: justify;
     width: 80%;
     color: white;  
+    font-family: 'PT Sans Caption', sans-serif
 }
 .foto2{
   
@@ -29,6 +30,7 @@
 .textos_SS h2{
     margin: 0;
     color: white;
+    font-family: 'Kanit', sans-serif;
 }
 
 @media screen and (max-width: 750px){
@@ -41,6 +43,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: flex-end;
+        padding: 20px 0;
         
     }
     .textos_SS{
@@ -54,6 +57,7 @@
         width: 100%;
         color: white;    
         padding: 25px 20px;
+        font-size: 14px;
          
      }
      .textos_SS h2{
