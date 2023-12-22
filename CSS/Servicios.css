@@ -1,0 +1,127 @@
+.seccion3{
+    margin: 140px 0;
+}
+.seccion3 h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Average Sans', sans-serif;
+    color: rgb(77, 77, 77);
+}
+
+.container_Precios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.lista_servicio {
+    
+    
+    list-style: none;
+    padding: 35px 0px;
+
+}
+.lista_servicio li {
+    color: white;
+    font-family: 'Mako', sans-serif;
+    /* grayish blue */
+    border-bottom: 1px solid hsl(0, 0%, 100%);
+    padding: 12px 0;
+    font-size: 16px;
+}
+
+.lista_servicio li:first-child {
+    border-top: 1px solid hsl(234, 14%, 74%);
+}
+.container_Precios img{
+    width: 150px;
+    margin: -40px;
+    margin-top: 20px;
+    padding: 0;
+    box-shadow: 0 0px 3px 0px rgba(63, 2, 67, 0.39);
+    
+
+}
+
+.precio1{
+    background-color:#b186f1;
+    border: none;
+    border-radius: 9px ;
+    width: 340px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    padding-top: 5px;
+    height: 420px;
+    box-shadow: 0 0.1rem 0.4rem 0 rgba(50,50,50,.5);
+    
+}
+
+.mejor_Precio{
+    background-color: #b186f1;
+
+    margin: 0 20px;
+    color: white;
+    height: 470px;
+    width: 340px;
+    border-radius: 9px ;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    box-shadow: 0 0.1rem 0.4rem 0 rgba(50,50,50,.5);
+    
+}
+.mejor_Precio:hover{
+    width: 380;
+    height: 500px;
+    font-size: 18;
+    transition: .3s;
+    box-shadow: 0 0.1rem 0.4rem 0 rgba(150, 124, 20, 0.5);
+    background-color: rgb(176, 44, 224);
+}
+
+.mejor_Precio .tipo_m{
+    font-family: 'Kanit', sans-serif;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+}
+.tipo{
+    font-family: 'Kanit', sans-serif;
+    font-size: 25px;
+    color: #ffffff;
+}
+.servicio{
+    text-align: justify;
+    width: 80%;
+    color: white;
+    
+}
+
+.precio1:hover{
+    width: 360;
+    height: 470px;
+    font-size: 18;
+    transition: .3s;
+    box-shadow: 0 0.1rem 0.4rem 0 rgba(150, 124, 20, 0.5);
+    background-color: rgb(176, 44, 224);
+}
+@media screen and  (max-width: 750px){
+    .container_Precios{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mejor_Precio{
+        margin: 20px 0;
+    }
+        
+}
